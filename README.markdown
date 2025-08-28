@@ -161,7 +161,7 @@ artifacts:
   base-directory: 'target/vprofile-v2'
 ```
 
-## WS CodePipeline Setup
+## AWS CodePipeline Setup
 
 1. Navigate to AWS CodePipeline > Create Pipeline.
 2. Select Build Custom Pipeline.
