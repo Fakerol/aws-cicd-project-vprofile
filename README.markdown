@@ -132,7 +132,7 @@ This guide outlines the steps to set up a CI/CD pipeline using AWS services, Bit
    - Select **BitBucket** as the source provider.
    - Use the default credentials for BitBucket.
 4. Add the following `buildspec.yml`:
-<xaiArtifact artifact_id="07492c78-3451-485f-8c5e-eda9055ccc4a" artifact_version_id="2bb365cc-39fc-4549-b042-ab825f84f14f" title="buildspec.yml" contentType="text/yaml">
+```bash
 version: 0.2
 
 phases:
@@ -159,7 +159,7 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'target/vprofile-v2'
-
+```
 
 ## WS CodePipeline Setup
 
